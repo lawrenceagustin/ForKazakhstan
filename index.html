@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qazaq Eli</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body class="bg-gray-900">
+  <div>
+    <nav class="bg-gray-800">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+        <a href="index.html" class="flex items-center space-x-5">
+            <img src="img/Emblem_of_Kazakhstan_3d.svg.png" class="h-11" alt="Kazakh_Emblem" />
+            <span class="self-center text-2xl font-extrabold whitespace-nowrap font-sans text-white md:hover:text-yellow-500">Kazakh Wonders</span>
+        </a>
+        <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-1 md:flex-row space-x-2">
+            <li>
+              <a href="index.html" class="py-2 px-2 text-white rounded-sm md:hover:text-yellow-500 md:p-0" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="landmarks.html" class="block py-2 px-3 text-white rounded-sm md:hover:text-yellow-500 md:p-0">Landmarks</a>
+            </li>
+            <li>
+              <a href="culture.html" class="block py-2 px-3 text-white rounded-sm md:hover:text-yellow-500 md:p-0">Culture</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="relative w-full">
+    <img src="/img/polina-skaia-ToJNyWpDn9I-unsplash.jpg" class="w-full h-auto object-cover">
+    
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h1 class="font-big-shoulders text-6xl md:text-9xl font-black text-white tracking-wide md:hover:text-yellow-500 bg-black/50 px-4 py-2 rounded-lg">
+        The Heart of Eurasia
+      </h1>
+    </div>
+  </div>
+
+  <div class="flex flex-row md:flex-row max-w-full py-16 px-6 md:px-32 items-center gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500">
+            A Brief History of Kazakhstan
+        </h2>
+        <div class="w-96">
+            <img src="/img/astama.jpg" alt="Astana" class="rounded-lg w-full md:w-auto">
+        </div>
+    </div>
+
+    <div class="flex flex-col">
+        <p class="text-lg text-white">
+            Kazakhstan, the heart of Central Asia, has a rich history shaped by nomadic traditions and cultural influences from both East and West. For centuries, the Kazakh steppes were 
+            home to nomadic tribes who lived on horseback, moving with the seasons. These tribes united in the 15th century to form the Kazakh Khanate, establishing the country’s 
+            distinct identity. In the 18th and 19th centuries, Kazakhstan became part of the Russian Empire and later the Soviet Union, which brought major changes to its way of life. 
+            After gaining independence in 1991, Kazakhstan rapidly modernized while preserving its cultural heritage. Today, visitors can explore ancient Silk Road cities, vast steppes, 
+            and dynamic modern capitals like Astana (formerly Nur-Sultan) and Almaty. From nomadic traditions to futuristic architecture, Kazakhstan offers a 
+            fascinating blend of history and progress for travelers to discover.
+        </p>
+        <br>
+        <h2 class="text-lg text-white mt-4">Fun facts:</h2>
+        <ol class="list-decimal list-inside text-lg text-white">
+            <li>Kazakhstan is the world’s largest landlocked country and the 9th largest country overall!</li>
+            <li>The country has over 48,000 lakes, including the famous Caspian Sea and Lake Balkhash, which is part freshwater and part saltwater!</li>
+            <li>The capital Astana (formerly Nur-Sultan) features futuristic architecture, including the Baiterek Tower and the pyramid-shaped Palace of Peace and Reconciliation.</li>
+        </ol>
+    </div>
+  </div>
+
+  </div>
+
+
+
+  <div class="flex flex-col max-w-full bg-gray-800">
+    <div class="text-center font-sans text-l text-white font-medium py-6">
+      Map of Kazakhstan
+    </div>
+    <div class="overflow-hidden flex justify-center items-center pb-10">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116198.123456789!2d66.923684!3d48.019573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a91007ecfca947%3A0x5f7b842fe4b30e1b!2sKazakhstan!5e0!3m2!1sen!2sus!4v1631234567890!5m2!1sen!2sus" 
+        width="1000" 
+        height="420" 
+        style="border:0;" 
+        allowfullscreen 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </div>
+  </div>
+
+  
+
+  <footer class="bg-zinc-50 text-center dark:bg-neutral-700 lg:text-left">
+    <div class="bg-black/5 p-4 text-center text-surface text-gray-500 text-sm font-Roboto">
+      © 2025 Copyright
+      <p>nekoHanekawa</p>
+      <div class="space-x-2">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>

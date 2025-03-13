@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qazaq Eli</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-900">
+  <div>
+    <nav class="bg-gray-800">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+        <a href="index.html" class="flex items-center space-x-5">
+            <img src="img/Emblem_of_Kazakhstan_3d.svg.png" class="h-11" alt="Kazakh_Emblem" />
+            <span class="self-center text-2xl font-extrabold whitespace-nowrap font-sans text-white md:hover:text-yellow-500">Kazakh Wonders</span>
+        </a>
+        <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-1 md:flex-row space-x-2">
+            <li>
+              <a href="index.html" class="py-2 px-2 text-white rounded-sm md:hover:text-yellow-500 md:p-0" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="landmarks.html" class="block py-2 px-3 text-white rounded-sm md:hover:text-yellow-500 md:p-0">Landmarks</a>
+            </li>
+            <li>
+              <a href="culture.html" class="block py-2 px-3 text-white rounded-sm md:hover:text-yellow-500 md:p-0">Culture</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="relative w-full">
+    <img src="/img/adventure.jpg" class="w-full h-auto object-cover">
+    
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h1 class="font-big-shoulders text-6xl md:text-9xl font-black text-white tracking-wide md:hover:text-yellow-500 bg-black/50 px-4 py-2 rounded-lg">
+        Wonders of the Heart of Eurasia
+      </h1>
+    </div>
+  </div>
+
+  <!--Charyn Canyon-->
+  <div class="flex flex-row md:flex-row max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500">
+            Charyn Canyon
+        </h2>
+        <div class="w-full w-full">
+            <img src="/img/charyn_canyon.png" alt="Charyn" class="w-auto h-auto">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center">
+        <p class="text-lg text-white font-Roboto">
+          Carved by time and nature, <span class="text-yellow-500">Charyn Canyon</span> is one of Kazakhstan’s most stunning geological wonders, often compared to the Grand Canyon. With its towering red rock formations and 
+          breathtaking landscapes, this natural marvel is perfect for hiking, sightseeing, and capturing mesmerizing photos. Its unique beauty, combined with adventure-filled trails, 
+          makes it a must-visit destination for nature lovers and explorers.
+        </p>
+        <br>
+        <ul class="list-none space-y-1">
+          <li class="custom-bullet text-lg text-white">Offers stunning geological formations with vibrant colors.</li>
+          <li class="custom-bullet text-lg text-white">Popular for hiking, photography, and adventure tours.</li>
+          <li class="custom-bullet text-lg text-white">The Valley of Castles is a must-see, with rock formations resembling ancient fortresses.</li>
+        </ul>
+    </div>
+  </div>
+
+  <!--Almaty Lake-->
+  <div class="flex flex-row-reverse max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500 order-1">
+            Almaty Lake
+        </h2>
+        <div class="w-full h-full" style="overflow: hidden; position: relative;">
+            <img src="/img/ALMATYLAKE.jpg" alt="Charyn" style="object-fit: cover; width: 3000px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center order-2">
+        <p class="text-lg text-white text-right font-Roboto">
+          Nestled in the breathtaking Tian Shan mountains, Big Almaty Lake is a shimmering turquoise reservoir that changes 
+          color with the seasons, making it one of Kazakhstan’s most photogenic natural wonders. The lake is a serene retreat 
+          for those seeking peaceful nature walks, panoramic mountain views, and fresh alpine air. As a protected area, 
+          it remains untouched and pristine, offering visitors a tranquil escape from the bustling city of Almaty.
+        </p>
+        <br>
+        <p class="text-lg text-white text-right font-Roboto font-black">
+          Things to do:
+        </p>
+        <ul class="list-none space-y-1 text-right">
+          <li class="custom-bullet-right text-lg text-white">Scenic photography and nature walks</li>
+          <li class="custom-bullet-right text-lg text-white">Picnic with a view of the lake and surrounding peaks</li>
+          <li class="custom-bullet-right text-lg text-white">Trekking to nearby mountain trails</li>
+          <li class="custom-bullet-right text-lg text-white">Wildlife spotting</li>
+        </ul>
+    </div>
+  </div>
+
+  <!--Bayterek Tower-->
+  <div class="flex flex-row md:flex-row max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500">
+            Bayterek Tower
+        </h2>
+        <div class="w-full w-full"  style="overflow: hidden; position: relative;">
+            <img src="/img/bayterek_tower.jpg" alt="Charyn" class="w-auto h-auto" style="object-fit: cover; width: 3500px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center">
+        <p class="text-lg text-white font-Roboto">
+          A striking architectural masterpiece in the heart of Astana (Nur-Sultan), Bayterek Tower symbolizes Kazakhstan’s 
+          modern development and cultural heritage. The tower stands 105 meters tall, with an observation deck inside a 
+          golden sphere, offering stunning panoramic views of the capital’s futuristic skyline. Its unique design, inspired 
+          by Kazakh mythology, and its role as a national symbol make it an essential stop for travelers.
+        </p>
+        <br>
+        <p class="text-lg text-white font-Roboto font-black">
+          Things to do:
+        </p>
+        <ul class="list-none space-y-1">
+          <li class="custom-bullet text-lg text-white">Visit the observation deck for city-wide views</li>
+          <li class="custom-bullet text-lg text-white">Take pictures of the tower’s futuristic design </li>
+          <li class="custom-bullet text-lg text-white">Explore the surrounding parks, fountains, and modern buildings</li>
+        </ul>
+    </div>
+  </div>
+
+  <!--Shymbulak-->
+  <div class="flex flex-row-reverse max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500 order-1">
+            Shymbulak
+        </h2>
+        <div class="w-full h-full" style="overflow: hidden; position: relative;">
+            <img src="/img/shymbulak.jpg" alt="Charyn" style="object-fit: cover; width: 3500px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center order-2">
+        <p class="text-lg text-white text-right font-Roboto">
+          Located just 30 minutes from Almaty, Shymbulak is Central Asia’s premier ski resort, offering world-class slopes, 
+          breathtaking mountain scenery, and a mix of winter and summer activities. Sitting at an elevation of 2,200 meters, 
+          the resort provides an exhilarating experience for adventure seekers, whether you're skiing down powdery slopes in 
+          winter or hiking up alpine trails in summer.
+        </p>
+        <br>
+        <p class="text-lg text-white text-right font-Roboto font-black">
+          Things to do:
+        </p>
+        <ul class="list-none space-y-1 text-right">
+          <li class="custom-bullet-right text-lg text-white">Skiing and snowboarding in the winter</li>
+          <li class="custom-bullet-right text-lg text-white">Take the scenic cable car ride over the mountains</li>
+          <li class="custom-bullet-right text-lg text-white">Hiking and mountain biking during the summer months</li>
+          <li class="custom-bullet-right text-lg text-white">Relax at mountain cafés and lodges with spectacular views </li>
+        </ul>
+    </div>
+  </div>
+
+  <!--Mangystau-->
+  <div class="flex flex-row md:flex-row max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500">
+          Mangystau
+        </h2>
+        <div class="w-full w-full style="overflow: hidden; position: relative;">
+            <img src="/img/mangystau.png" alt="Charyn" style="object-fit: cover; width: 3500px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center ">
+        <p class="text-lg text-white font-Roboto">
+          Mangystau, a remote and otherworldly region, is famous for its mystical landscapes, including the Valley of Balls 
+          (Torysh), the white chalk cliffs of Bozjyra, and the vast Ustyurt Plateau. This region, often called the 
+          "Kazakh Grand Canyon," features some of the most surreal rock formations and untouched desert scenery in the world, 
+          making it an adventurer’s paradise.
+        </p>
+        <br>
+        <p class="text-lg text-white font-Roboto font-black">
+          Things to do:
+        </p>
+        <ul class="list-none space-y-1">
+          <li class="custom-bullet text-lg text-white">Explore the Valley of Balls with its mysterious spherical rock formations</li>
+          <li class="custom-bullet text-lg text-white">Visit Bozjyra Cliffs, known for their dramatic limestone peaks</li>
+          <li class="custom-bullet text-lg text-white">Off-road driving and camping in the desert</li>
+        </ul>
+    </div>
+  </div>
+  <footer class="bg-zinc-50 text-center lg:text-left">
+    <div class="bg-gray-800 p-4 text-center text-surface text-gray-500 text-sm font-Roboto">
+      © 2025 Copyright
+      <p>nekoHanekawa</p>
+      <div class="space-x-2">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

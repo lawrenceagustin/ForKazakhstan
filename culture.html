@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qazaq Eli</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-900">
+  <div>
+    <nav class="bg-gray-800">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+        <a href="index.html" class="flex items-center space-x-5">
+            <img src="img/Emblem_of_Kazakhstan_3d.svg.png" class="h-11" alt="Kazakh_Emblem" />
+            <span class="self-center text-2xl font-extrabold whitespace-nowrap font-sans text-white md:hover:text-yellow-500">Kazakh Wonders</span>
+        </a>
+        <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-1 md:flex-row space-x-2">
+            <li>
+              <a href="index.html" class="py-2 px-2 text-white rounded-sm md:hover:text-yellow-500 md:p-0" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="landmarks.html" class="block py-2 px-3 text-white rounded-sm md:hover:text-yellow-500 md:p-0">Landmarks</a>
+            </li>
+            <li>
+              <a href="culture.html" class="block py-2 px-3 text-white rounded-sm md:hover:text-yellow-500 md:p-0">Culture</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="relative w-full" style="overflow: hidden; position: relative;">
+    <img src="/img/cathedral.jpg" class="w-full h-auto object-cover" style="object-fit: cover; width: full; height: 1000px;">
+    
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h1 class="font-big-shoulders text-6xl md:text-9xl font-black text-white tracking-wide md:hover:text-yellow-500 bg-black/50 px-4 py-2 rounded-lg">
+        The Soul of Kazakhstan
+      </h1>
+    </div>
+  </div>
+
+  <div class="flex flex-col max-w-full bg-gray-900">
+    <div class="text-center font-big-shoulders text-5xl text-white font-medium py-6">
+      Kazakh Culture: A Tapestry of Tradition and Heritage
+    </div>
+  </div>
+
+  <div class="flex flex-col max-w-full bg-gray-800">
+    <div class="text-center font-big-shoulders text-l text-white font-small px-96 py-4">
+      <p class="text-lg text-white font-Roboto text-center">
+        Kazakh traditional clothing reflects the nomadic lifestyle, harsh climate, and deep cultural heritage of the region. Made from natural materials like wool, leather, and silk, 
+        these garments were designed for both functionality and elegance. Men typically wore shapan, a long embroidered coat, along with tebetey or kalpak hats, while women adorned 
+        themselves in ornate dresses and headpieces such as the saukele, a tall and elaborate bridal headdress.Beyond aesthetics, Kazakh clothing holds deep symbolic and social meanings. 
+        The saukele, for example, represented a woman’s status and was often passed down generations. Golden embroidery and patterns in clothing symbolized wealth and nobility, 
+        while the choice of colors and materials often signified regional identity. Today, these traditional garments are still proudly worn during festivals, weddings, and cultural events, 
+        preserving a connection to Kazakhstan’s rich past.
+      </p>
+  </div>
+  </div>
+
+  <!--Kazakh Clothing-->
+  <div class="flex flex-row md:flex-row max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500">
+            Kazakh Clothing
+        </h2>
+        <div class="w-full w-full" style="overflow: hidden; position: relative;">
+            <img src="/img/kazakh outfit.jpg" alt="kazakh_clothing" class="w-auto h-auto" style="object-fit: cover; width: 2800px; height: 370px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center">
+        <p class="text-lg text-white font-Roboto">
+          Kazakh traditional clothing is a beautiful blend of functionality and artistry, designed to suit the harsh climate of the steppe while 
+          showcasing the wearer’s status, age, and social role. Made from natural materials like wool, leather, and silk, these garments are often 
+          adorned with intricate embroidery, precious stones, and metallic embellishments that reflect Kazakhstan’s rich craftsmanship.
+        </p>
+        <br>
+        <ul class="list-none space-y-2">
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">Shapan</span>– A long, richly decorated coat worn by men and women, often made of velvet or silk with embroidered patterns. It symbolizes wisdom and respect, typically worn by elders and honored guests.</li>
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">Saukele</span> – A tall, elaborate bridal headdress, often decorated with gold, silver, pearls, and feathers. It represents prosperity, beauty, and marital status.</li>
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">Tebetey & Kalpak </span>– Traditional fur hats worn by men, offering protection against the cold and symbolizing nobility.</li>
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">Kimeshek </span>– A white headscarf worn by married women, signifying modesty and respect in Kazakh society.</li>
+        </ul>
+        <br>
+        <p class="text-lg text-white font-Roboto">
+          While traditional clothing is primarily worn during festivals, weddings, and ceremonies, modern designers are blending traditional elements 
+          with contemporary fashion, making them more accessible in daily life.
+        </p>
+    </div>
+  </div>
+
+  <!--Kazakh Music&Dance-->
+  <div class="flex flex-row-reverse max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500 order-1">
+          Music & Dance
+        </h2>
+        <div class="w-full h-full" style="overflow: hidden; position: relative;">
+            <img src="/img/dances.jpg" alt="Charyn" style="object-fit: cover; width: 2500px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center order-2">
+        <p class="text-lg text-white text-right font-Roboto">
+          Kazakh music is a deep reflection of nomadic life, often inspired by nature, heroism, and history. Traditional instruments like the dombyra 
+          and kobyz have been central to storytelling, passing down history and wisdom through generations.
+        </p>
+        <br>
+        <ul class="list-none space-y-2 text-right">
+          <li class="text-lg text-white"><span class="text-yellow-500">Dombyra</span>  – Considered the symbol of Kazakh music. It is used in Kuy performances—instrumental storytelling pieces that convey deep emotions without words.</li>
+          <li class="text-lg text-white"><span class="text-yellow-500">Kara Zhorga Dance </span>– The most famous Kazakh dance, known for its graceful and rhythmic movements, symbolizing unity and celebration.</li>
+          <li class="text-lg text-white"><span class="text-yellow-500">Aitys </span>– A form of musical improvisation where two performers engage in a lyrical battle, combining poetry, wit, and social commentary.</li>
+        </ul>
+        <br>
+        <p class="text-lg text-white text-right font-Roboto">
+          Kazakh music has evolved with modern genres, blending traditional instruments with pop, jazz, and electronic music. Artists like Dimash Kudaibergen have introduced Kazakh music 
+          to a global audience, preserving its cultural essence while making it contemporary.
+        </p>
+    </div>
+  </div>
+
+  <!--Festivals -->
+  <div class="flex flex-row md:flex-row max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500">
+            Festivals
+        </h2>
+        <div class="w-full w-full"  style="overflow: hidden; position: relative;">
+            <img src="/img/festivals.jpeg" alt="Charyn" class="w-auto h-auto" style="object-fit: cover; width: 2500px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center">
+        <p class="text-lg text-white font-Roboto">
+          Kazakh festivals are vibrant expressions of tradition, community, and history, deeply rooted in nomadic customs and the changing seasons. 
+          These events bring people together through music, dance, sports, and feasting, reinforcing Kazakhstan’s strong sense of cultural identity.
+        </p>
+        <br>
+        <p class="text-lg text-white font-Roboto font-black">
+          Things to do:
+        </p>
+        <ul class="list-none space-y-2">
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">Nauryz Meyrami</span> - The most important Kazakh festival, celebrating the Persian New Year and the arrival of spring. It represents renewal, prosperity, and unity, with families preparing Nauryz Kozhe (a traditional festive dish) and engaging in horse races, wrestling, and music performances.</li>
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">National Dombyra Day</span> - A day dedicated to the dombyra and Kazakh folk music, with performances and cultural exhibitions. </li>
+          <li class="custom-bullet text-lg text-white"><span class="text-yellow-500">Kurultai of Nomads</span> - A large-scale event recreating Kazakh nomadic life, featuring yurt-building, traditional sports, and historical reenactments.</li>
+        </ul>
+        <br>
+        <p class="text-lg text-white font-Roboto">
+          Festivals in Kazakhstan are becoming global cultural events, attracting tourists who want to experience Kazakh traditions firsthand, with many events now incorporating 
+          modern performances and international influences.
+        </p>
+
+    </div>
+  </div>
+
+  <!--Nomadic Traditions-->
+  <div class="flex flex-row-reverse max-w-full py-16 px-6 md:px-32 gap-6">
+    <div class="text-center md:text-left">
+        <h2 class="font-big-shoulders text-5xl font-black text-white tracking-wide md:hover:text-yellow-500 order-1">
+            Nomadic Traditions
+        </h2>
+        <div class="w-full h-full" style="overflow: hidden; position: relative;">
+            <img src="/img/nomadic-traditions.jpg" alt="Charyn" style="object-fit: cover; width: 3000px; height: 390px;">
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center order-2">
+        <p class="text-lg text-white text-right font-Roboto">
+          Kazakhstan’s nomadic heritage is one of its most defining cultural elements, shaping its customs, social structure, and way of life. The nomadic lifestyle, which existed for 
+          thousands of years, emphasized self-sufficiency, hospitality, and harmony with nature.
+        </p>
+        <br>
+        <ul class="list-none space-y-2 text-right">
+          <li class="text-lg text-white"><span class="text-yellow-500">Yurt (Ger) Living</span> - The portable round tent, made of felt and wood, is a symbol of Kazakh heritage, designed for easy mobility and insulation against extreme weather.</li>
+          <li class="text-lg text-white"><span class="text-yellow-500">Bata (Blessing Rituals)</span> - The tradition of giving blessings and prayers before important journeys, events, or meals, often led by respected elders.</li>
+          <li class="text-lg text-white"><span class="text-yellow-500">Kazakh Hospitality </span> - Guests are treated with Baursak (fried dough snacks), Kumis (fermented horse milk), and Beshbarmak (the national dish) as a sign of respect and welcome.</li>
+        </ul>
+        <br>
+        <p class="text-lg text-white text-right font-Roboto">
+          Although fewer Kazakhs live a fully nomadic lifestyle today, yurts, eagle hunting, and hospitality customs remain an important part of cultural tourism, offering visitors a 
+          firsthand experience of Kazakh traditions.
+        </p>
+    </div>
+  </div>
+  <footer class="bg-zinc-50 text-center dark:bg-neutral-700 lg:text-left">
+    <div class="bg-gray-800 p-4 text-center text-surface text-gray-500 text-sm font-Roboto">
+      © 2025 Copyright
+      <p>nekoHanekawa</p>
+      <div class="space-x-2">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
